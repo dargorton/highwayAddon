@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "org.mozaicclient.meteor.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

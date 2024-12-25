@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "haddon",
+  "version": "${version}",
+  "name": "hAddon",
+  "description": "An addon to add more movement exploits to Meteor client.",
+  "authors": [
+    "Mozaic Development", "Notrograd"
+  ],
+  "contact": {
+    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "org.mozaicclient.meteor.HAddonLoader"
+    ]
+  },
+  "mixins": [
+    "hAddon.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
